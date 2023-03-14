@@ -18,22 +18,22 @@ const Home = () => {
 			noticia: "100% Raw Honey is being Exported by local producers",
 		},
 		{
-			titulo: "Surfing",
-			noticia: "Helps people dealing with stress",
+			titulo: "Costa Rica",
+			noticia: "100% Raw Honey is being Exported by local producers",
 		},
 		{
-			titulo: "Fishing",
-			noticia: "Fishermen are happy",
+			titulo: "Costa Rica",
+			noticia: "100% Raw Honey is being Exported by local producers",
 		},
 		{
-			titulo: "Photography",
-			noticia: "Gallery exposition tomorrow",
+			titulo: "Costa Rica",
+			noticia: "100% Raw Honey is being Exported by local producers",
 		},
 	];
 	return (
 		<>
-			<Navbar />
-			<Jumbotron />
+			<Navbar/>
+			<Jumbotron/>
 			<div className="album py-3">
 				<div className="container">
 					<div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
@@ -43,7 +43,6 @@ const Home = () => {
 									titulo={item.titulo}
 									descripcion={item.noticia}
 									key={index}
-
 								/>
 							);
 						})}
@@ -51,8 +50,8 @@ const Home = () => {
 				</div>
 			</div>
 			<Footer />
-		</>)
-
+		</>
+	);
 };
 
 export default Home;

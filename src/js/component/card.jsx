@@ -10,7 +10,7 @@ const Card = (props) => {
               src={Honey}
               className="bd-placeholder-img card-img-top"
               width="100%"
-              height="225"
+              height="auto"
             />
   
             <div className="card-body text-center">
